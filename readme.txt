@@ -1,6 +1,6 @@
-Documentação Git
-
-
+_______________________________________
+Console
+_______________________________________
 Iniciar o repositório
         git init
 
@@ -11,5 +11,28 @@ Adicionando e Comitando
 	git add nomeArquivo/Pasta
 
 	git commit -m "Comentário"
+
+Conectando Repositório local com o da web
+	git remote add "apelidoRepo" https://github.com/BrunoPucrs/TesteGit.git
+
+Testar conexão 
+	git remote -v 
+	
+	Retorno deve ser semelhante a esse:
+		ApelidoRepo	https://github.com/BrunoPucrs/TesteGit.git (fetch)
+		ApelidoRepo	https://github.com/BrunoPucrs/TesteGit.git (push)
+
+Sincronizando os repositórios
+	git push ApelidoRepo master 
+**Em caso de o Git ter sido recem instalado, será solicitado as configurações globais como e-mail e nome de usuário**
+
+git config --global user.name "BrunoPucrs"
+git config --global user.email "bruno.ramos93@edu.pucrs.br"
+
+GitHub
+_______________________________________
+Criando Repositório
+	Clicar no + 	
+	Copiar a URL https://github.com/BrunoPucrs/TesteGit.git
 
 
