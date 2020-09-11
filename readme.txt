@@ -8,7 +8,8 @@ Para testar
         git status
 
 Adicionando e Comitando
-	git add nomeArquivo/Pasta
+	git add nomeArquivo  <--Para adicionar arquivo
+	git add . <--Para adicionar Pasta/ Onde "." Significa a pasta atual
 
 	git commit -m "Comentário"
 
@@ -28,6 +29,10 @@ Sincronizando os repositórios
 
 git config --global user.name "BrunoTeste"
 git config --global user.email "teste.email@teste.com.br"
+
+Remover Arquivo adicionado
+	git rm --cached "nomeArquivo" <-- --cached significa que remove apenas a adicão ao git, mantendo o arquivo, para remover o arquivo de repositório, utiliza o -f
+	
 
 GitHub
 _______________________________________
