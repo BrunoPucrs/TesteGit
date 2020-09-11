@@ -26,8 +26,8 @@ Sincronizando os repositórios
 	git push ApelidoRepo master 
 **Em caso de o Git ter sido recem instalado, será solicitado as configurações globais como e-mail e nome de usuário**
 
-git config --global user.name "BrunoPucrs"
-git config --global user.email "bruno.ramos93@edu.pucrs.br"
+git config --global user.name "BrunoTeste"
+git config --global user.email "teste.email@teste.com.br"
 
 GitHub
 _______________________________________
