@@ -2,7 +2,7 @@ _______________________________________
 Console
 _______________________________________
 Iniciar o repositório
-        git init
+        git initf
 
 Para testar
         git status
@@ -40,4 +40,4 @@ Criando Repositório
 	Clicar no + 	
 	Copiar a URL https://github.com/BrunoPucrs/TesteGit.git
 
-Teste
+TesteOK
